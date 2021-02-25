@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(#ed882f 0%, #f2d544 100%);
+        
+}
+
+img {
+    width:200px;
+    height: 200px;
+    background: solid;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#hobbies {
+    color: red;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#about{
+    color:darkgreen;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: darkred;
+    margin: 8px auto;
+    text-align: center;
+
+}
+
+.links{
+    color:darkblue;
+    right:30px;
+    display:inline;
+    float: right;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.links:hover{
+    background-color: cyan;
+    
+}
+.hobby{
+   font-family: 'Dancing Script', cursive;
+}
+
+.favourite{
+    font-family: monospace;
+}
+
+ul{
+
+    position: fixed;
+   z-index: 10; 
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    
+    
+}
+
+#Myfavmagician{
+    color: mediumblue;
+     font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+#Myinspiration{
+    color:darkmagenta;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+img{
+    transition:transform .2s;
+    
+}
+
+img:hover{
+    
+    transform: scale(0.9);
+}
+
+#contacts{
+    color:fuchsia;
+     font-size: 16px;
+    font-family: sans-serif;
+        background-color: blue;
+    width: 100%;
+}
+
+#contacts iframe{
+    width: 100%;
+}
+#contacts h3{
+    color:aliceblue;
+}
